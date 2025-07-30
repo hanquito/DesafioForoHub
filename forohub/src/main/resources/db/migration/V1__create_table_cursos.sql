@@ -1,0 +1,6 @@
+CREATE TABLE cursos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    activo BOOLEAN NOT NULL,
+    categoria ENUM('FRONTEND', 'BACKEND', 'DEVOPS', 'ROBOTICS', 'IA'),
+    name VARCHAR(255) NOT NULL
+);
